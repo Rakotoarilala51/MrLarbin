@@ -1,0 +1,121 @@
+@import "tailwindcss";
+@tailwind utilities;
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url("./assets/font/Orbitron/orbitron-light.otf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/font/Inter/Inter-Light.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Doto;
+  src: url("./assets/font/Doto/Doto-Thin.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: Doto;
+  src: url("./assets/font/Doto/Doto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  src: url("./assets/font/Inter/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("./assets/font/Rubik/Rubik-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url("./assets/font/Orbitron/orbitron-medium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  src: url("./assets/font/Inter/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("./assets/font/Rubik/Rubik-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url("./assets/font/Orbitron/orbitron-bold.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  src: url("./assets/font/Inter/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  src: url("./assets/font/Inter/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Rubik;
+  src: url("./assets/font/Rubik/Rubik-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url("./assets/font/Orbitron/orbitron-black.otf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  src: url("./assets/font/Inter/Inter-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("./assets/font/Rubik/Rubik-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@theme{
+  --font-rubik: Rubik;
+  --font-inter:Inter;
+  --font-doto:Doto;
+  --font-orbitron:Orbitron;
+}
